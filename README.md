@@ -30,21 +30,22 @@ A React.js/Next.js application with user authentication and dashboard data table
    ```bash
    git clone https://github.com/your-username/algoroot-task.git
    cd algoroot-task
+   ```
 
-Install dependencies:
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-bash
-Copy
-npm install
-Run the development server:
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+   Open http://localhost:3000 in your browser.
 
-bash
-Copy
-npm run dev
-Open http://localhost:3000 in your browser.
+## Project Structure
 
-Project Structure
-Copy
+```
 /src
 ├── components/
 │   ├── AuthForm.js      # Login/Signup form
@@ -58,23 +59,20 @@ Copy
 │   └── details.js       # Dashboard page
 └── styles/
     └── globals.css      # Global styles
-Usage
-Authentication
+```
 
-Visit / to access the login page
+## Usage
 
-Use any email format (validation is basic for demo)
+### Authentication
 
-Password must be at least 6 characters
+- Visit `/` to access the login page
+- Use any email format (validation is basic for demo)
+- Password must be at least 6 characters
 
-Dashboard
+### Dashboard
 
-After login, you'll be redirected to /details
-
-Table features:
-
-Click column headers to sort
-
-Use search box to filter data
-
-Pagination controls at bottom
+- After login, you'll be redirected to `/details`
+- **Table features:**
+  - Click column headers to sort
+  - Use search box to filter data
+  - Pagination controls at bottom
